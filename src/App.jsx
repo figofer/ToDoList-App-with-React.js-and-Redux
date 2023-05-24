@@ -23,7 +23,7 @@ const App = () => {
         <h1 className="">
           What's the plan for today ?
         </h1>
-        <section className="">
+        <div className="">
           <InputTodo
             id={id}
             todoUpdate={todo}
@@ -32,7 +32,7 @@ const App = () => {
           />
 
           <ListTodo getTodo={getTodo} />
-        </section>
+        </div>
       </ContentLayout>
     </MainLayout>
   );
