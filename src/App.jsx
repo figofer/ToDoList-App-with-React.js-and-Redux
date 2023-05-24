@@ -20,18 +20,18 @@ const App = () => {
   return (
     <MainLayout>
       <ContentLayout>
-       <div className="container-sub">
-       <h1 className="">
-          What's the plan for today ?
-        </h1>
-       </div>
-        <div className="">
-          <InputTodo
-            id={id}
-            todoUpdate={todo}
-            isUpdate={isUpdate}
-            done={updateDone}
-          />
+        <div className="container-sub">
+        <h1 className="">
+            What's the plan for today ?
+          </h1>
+        </div>
+          <div className="">
+            <InputTodo
+              id={id}
+              todoUpdate={todo}
+              isUpdate={isUpdate}
+              done={updateDone}
+            />
 
           <ListTodo getTodo={getTodo} />
         </div>
