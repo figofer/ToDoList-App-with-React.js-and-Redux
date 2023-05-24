@@ -146,3 +146,16 @@ h1 {
     border-radius: 5px;
     width: 340px;
 }
+
+@media (max-width:581px){
+    .content{
+        width: 300px;
+
+    }
+    .input{
+        width: 200px;
+    }
+    .container-sub h1{
+        text-align: center;
+    }
+}
