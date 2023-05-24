@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400&display=swap');
 
 * {
+    
     font-family: 'Poppins', sans-serif;
 }
 
@@ -57,6 +58,14 @@ input {
     gap: 25px;
 
 }
+.container-sub{
+    display: flex;
+    justify-content: center;
+    
+}
+.container-sub h1{
+    font-size: 25pt;
+}
 
 .am {
     gap: 25px;
@@ -83,7 +92,7 @@ input {
 .list-todo:hover {
     transform: scaleY(1.1);
     border: 1px solid #c886ff;
-    background-color: white;
+    background-color: rgb(245, 192, 77);
 }
 
 .checkbox {
@@ -101,6 +110,7 @@ input {
 
 .edit {
     color: green;
+    
 }
 
 .delete {
@@ -135,4 +145,5 @@ h1 {
 .input {
     border: 1px solid black;
     border-radius: 5px;
+    width: 340px;
 }

@@ -20,9 +20,11 @@ const App = () => {
   return (
     <MainLayout>
       <ContentLayout>
-        <h1 className="">
+       <div className="container-sub">
+       <h1 className="">
           What's the plan for today ?
         </h1>
+       </div>
         <div className="">
           <InputTodo
             id={id}
