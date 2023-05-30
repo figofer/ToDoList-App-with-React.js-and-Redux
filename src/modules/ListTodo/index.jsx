@@ -1,6 +1,6 @@
 import { TbTrashXFilled } from "react-icons/tb";
 import { RiPencilFill } from "react-icons/ri";
-import Checkbox from "../../components/Checkbox";
+import Checkbox from "../../component/Checkbox";
 import { useSelector, useDispatch } from "react-redux";
 import { compledeTodo, deleteTodo } from "../../store/todosSlice";
 import FilterTodo from "../FilterTodo";

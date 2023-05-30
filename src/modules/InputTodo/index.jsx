@@ -1,5 +1,5 @@
-import TextField from "../../components/TextField";
-import Button from "../../components/Button";
+import TextField from "../../component/TextField";
+import Button from "../../component/Button";
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { addTodo, updateTodo } from "../../store/todosSlice";

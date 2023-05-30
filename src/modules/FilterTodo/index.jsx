@@ -1,4 +1,4 @@
-import Button from "../../components/Button";
+import Button from "../../component/Button";
 import { useDispatch, useSelector } from "react-redux";
 import { updateFilter } from "../../store/todosSlice";
 
